@@ -1,0 +1,45 @@
+MSSubClass: Identifies the type of dwelling involved in the sale.	
+
+MSZoning: Identifies the general zoning classification of the sale.
+
+Street: Type of road access to property
+
+Alley: Type of alley access to property
+
+LandContour: Flatness of the property
+
+LotConfig: Lot configuration
+
+Neighborhood: Physical locations within Ames city limits
+
+Condition1: Proximity to various conditions
+
+Condition2: Proximity to various conditions (if more than one is present)
+
+BldgType: Type of dwelling
+
+HouseStyle: Style of dwelling
+
+RoofStyle: Type of roof
+
+RoofMatl: Roof material
+
+Exterior1st: Exterior covering on house
+
+Exterior2nd: Exterior covering on house (if more than one material)
+
+MasVnrType: Masonry veneer type
+
+Foundation: Type of foundation
+
+Heating: Type of heating
+
+Electrical: Electrical system
+
+GarageType: Garage location
+
+MiscFeature: Miscellaneous feature not covered in other categories
+
+SaleType: Type of sale
+
+SaleCondition: Condition of sale

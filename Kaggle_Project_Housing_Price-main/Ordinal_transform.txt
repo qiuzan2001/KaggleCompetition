@@ -1,0 +1,191 @@
+LotShape: General shape of property
+
+4       Reg	Regular	
+3       IR1	Slightly irregular
+2       IR2	Moderately Irregular
+1       IR3	Irregular
+
+
+Utilities: Type of utilities available
+		
+4       AllPub	All public Utilities (E,G,W,& S)	
+3       NoSewr	Electricity, Gas, and Water (Septic Tank)
+2       NoSeWa	Electricity and Gas Only
+1       ELO	Electricity only
+
+
+LandSlope: Slope of property
+		
+3       Gtl	Gentle slope
+2       Mod	Moderate Slope	
+1       Sev	Severe Slope
+
+
+ExterQual: Evaluates the quality of the material on the exterior 
+		
+5       Ex	Excellent
+4       Gd	Good
+3       TA	Average/Typical
+2       Fa	Fair
+1       Po	Poor
+
+
+ExterCond: Evaluates the present condition of the material on the exterior
+		
+5       Ex	Excellent
+4       Gd	Good
+3       TA	Average/Typical
+2       Fa	Fair
+1       Po	Poor
+
+
+BsmtQual: Evaluates the height of the basement
+
+6       Ex	Excellent (100+ inches)	
+5       Gd	Good (90-99 inches)
+4       TA	Typical (80-89 inches)
+3       Fa	Fair (70-79 inches)
+2       Po	Poor (<70 inches
+1       NA	No Basement
+
+
+BsmtCond: Evaluates the general condition of the basement
+
+6       Ex	Excellent
+5       Gd	Good
+4       TA	Typical - slight dampness allowed
+3       Fa	Fair - dampness or some cracking or settling
+2       Po	Poor - Severe cracking, settling, or wetness
+1       NA	No Basement
+
+
+BsmtExposure: Refers to walkout or garden level walls
+
+5       Gd	Good Exposure
+4       Av	Average Exposure (split levels or foyers typically score average or above)	
+3       Mn	Mimimum Exposure
+2       No	No Exposure
+1       NA	No Basement
+
+
+BsmtFinType1: Rating of basement finished area
+
+7       GLQ	Good Living Quarters
+6       ALQ	Average Living Quarters
+5       BLQ	Below Average Living Quarters	
+4       Rec	Average Rec Room
+3       LwQ	Low Quality
+2       Unf	Unfinshed
+1       NA	No Basement
+
+
+BsmtFinType2: Rating of basement finished area (if multiple types)
+
+7       GLQ	Good Living Quarters
+6       ALQ	Average Living Quarters
+5       BLQ	Below Average Living Quarters	
+4       Rec	Average Rec Room
+3       LwQ	Low Quality
+2       Unf	Unfinshed
+1       NA	No Basement
+
+
+HeatingQC: Heating quality and condition
+
+5       Ex	Excellent
+4       Gd	Good
+3       TA	Average/Typical
+2       Fa	Fair
+1       Po	Poor
+
+
+CentralAir: Central air conditioning
+
+1       N	No
+2       Y	Yes
+
+KitchenQual: Kitchen quality
+
+5       Ex	Excellent
+4       Gd	Good
+3       TA	Average/Typical
+2       Fa	Fair
+1       Po	Poor
+
+
+Functional: Home functionality (Assume typical unless deductions are warranted)
+
+8       Typ	Typical Functionality
+7       Min1	Minor Deductions 1
+6       Min2	Minor Deductions 2
+5       Mod	Moderate Deductions
+4       Maj1	Major Deductions 1
+3       Maj2	Major Deductions 2
+2       Sev	Severely Damaged
+1       Sal	Salvage only
+
+
+FireplaceQu: Fireplace quality
+
+6       Ex	Excellent - Exceptional Masonry Fireplace
+5       Gd	Good - Masonry Fireplace in main level
+4       TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
+3       Fa	Fair - Prefabricated Fireplace in basement
+2       Po	Poor - Ben Franklin Stove
+1       NA	No Fireplace
+
+
+GarageFinish: Interior finish of the garage
+
+4       Fin	Finished
+3       RFn	Rough Finished	
+2       Unf	Unfinished
+1       NA	No Garage
+
+
+GarageQual: Garage quality
+
+6       Ex	Excellent
+5       Gd	Good
+4       TA	Typical/Average
+3       Fa	Fair
+2       Po	Poor
+1       NA	No Garage
+
+
+GarageCond: Garage condition
+
+6       Ex	Excellent
+5       Gd	Good
+4       TA	Typical/Average
+3       Fa	Fair
+2       Po	Poor
+1       NA	No Garage
+
+
+PavedDrive: Paved driveway
+
+3       Y	Paved 
+2       P	Partial Pavement
+1       N	Dirt/Gravel
+
+
+PoolQC: Pool quality
+		
+5       Ex	Excellent
+4       Gd	Good
+3       TA	Average/Typical
+2       Fa	Fair
+1       NA	No Pool
+
+
+Fence: Fence quality
+		
+5       GdPrv	Good Privacy
+4       MnPrv	Minimum Privacy
+3       GdWo	Good Wood
+2       MnWw	Minimum Wood/Wire
+1       NA	No Fence
+
+
+
